@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="page-title">
+        <h1 class="title">Rock Paper Scissors</h1>
+      </div>
+      <div class="buttons">
+        <button class="btn rock" onclick="change('👊')"">👊</button>
+        <button class="btn scissors" onclick="change('✌️')">✌️</button>
+        <button class="btn papper" onclick="change('🖐️')">🖐️</button>
+      </div>
+      <div class="choices">
+        <span class="choice my-choice">🤜</span>
+        <span class="choice computer-choice">🤛</span>
+      </div>
+      <div class="score">
+        <p class="scr scr-win"></p>
+        <p class="scr scr-lose"></p>
+        <p class="scr scr-tie"></p>
+      </div>
+      <div class="reset-button">
+        <button class="reset-btn" onclick="reseting()">Reset Score</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+html {
+  background-color: #9dc08b;
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  background-color: #edf1d6;
+  padding: 20px;
+  border-radius: 10px;
+  color: #45474b;
+  border: solid 1px black;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 30px;
+  font-size: 70px;
+  border-radius: 50%;
+  background-color: #edf1d6;
+  cursor: pointer;
+  border: solid 1px black;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-10px);
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice {
+  font-size: 100px;
+  margin: 20px 40px 0px 40px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scr {
+  margin: 30px 10px 0px 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: #45474b;
+  background-color: #edf1d6;
+  border-radius: 10px;
+  border: solid 1px black;
+  width: 120px;
+  text-align: center;
+}
+
+.reset-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-btn {
+  font-size: 20px;
+  background-color: #edf1d6;
+  padding: 10px;
+  border-radius: 50px;
+  color: #45474b;
+  width: 140px;
+  border: solid 1px black;
+  margin: 30px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  border: solid 2px black;
+}
